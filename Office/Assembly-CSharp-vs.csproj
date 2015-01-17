@@ -166,7 +166,14 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
      <Compile Include="Assets\Scripts\AttackAnimation.cs" />
      <Compile Include="Assets\Scripts\CatchBug.cs" />
+     <Compile Include="Assets\Scripts\HitDamage.cs" />
+     <Compile Include="Assets\Scripts\HitPartices.cs" />
+     <Compile Include="Assets\Scripts\HitSound.cs" />
+     <Compile Include="Assets\Scripts\IHittable.cs" />
      <Compile Include="Assets\Scripts\MoveAnimation.cs" />
+     <Compile Include="Assets\Scripts\PlayerAttack.cs" />
+     <Compile Include="Assets\Scripts\Spawner.cs" />
+     <Compile Include="Assets\Scripts\Stats.cs" />
      <Compile Include="Assets\Scripts\TesterCatch.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\AstarPathfindingEditor\Editor\EditorAssets\Materials\Navmesh2.shader" />

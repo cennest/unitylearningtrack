@@ -16,15 +16,15 @@ public class CatchBug : MonoBehaviour
 		void OnTriggerEnter (Collider other)
 		{
 				if (other.gameObject.tag == "Developer") {
-						removeCollider ();
-						animation.CrossFade (deathAnimation.name);
-						aiFollow.canMove = false;
-						audio.PlayOneShot (deathClip);						
-						int count = 0;
-						System.Int32.TryParse (developerBugCountLabel.text, out count);
-						count++;
-						developerBugCountLabel.text = count.ToString ();
-						Destroy (this.gameObject, 1);
+//						removeCollider ();
+//						animation.CrossFade (deathAnimation.name);
+//						aiFollow.canMove = false;
+//						audio.PlayOneShot (deathClip);						
+//						int count = 0;
+//						System.Int32.TryParse (developerBugCountLabel.text, out count);
+//						count++;
+//						developerBugCountLabel.text = count.ToString ();
+//						Destroy (this.gameObject, 1);
 
 				} else if (other.gameObject.tag == @"Tester") {
 						removeCollider ();
