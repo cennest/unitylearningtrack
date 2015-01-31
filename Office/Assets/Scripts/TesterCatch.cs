@@ -20,5 +20,10 @@ public class TesterCatch : MonoBehaviour {
 						if (t != null && t.gameObject.activeInHierarchy)
 								aiFollow.target = t;		
 				}
+
+		if (ts.Length == 1) {
+				
+			Application.LoadLevel("GameOver");
+		}
 	}
 }
