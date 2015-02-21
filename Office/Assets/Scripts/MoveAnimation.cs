@@ -7,41 +7,42 @@ public GameObject player;
 	Animation animation;
 	private float BaseAnimationSpeed = 0.5f;
 	private float AnimationSpeedModifier = 0.25f;
+	public UILabel PlayerNameLabel;
 
 	// Use this for initialization
-	void Start () {
-	
+	void Start () {	
 
-		postTest ();
-		getTest ();
+		//postTest ();
+		//getTest ();
+		PlayerNameLabel.text = PlayerPrefs.GetString("Player Name");
 		animation = GetComponent<Animation> ();
 
 	}
 
-	void postTest()
-	{
-		string url = "http://taskmanagerapp.azurewebsites.net/api/tasks/updateTaskDetails";
-		
-		WWWForm form = new WWWForm();
-		form.AddField("TaskID", 1);
-		form.AddField("TaskDescription", "Stalin Test");
-		form.AddField("TaskStatus", "Open");
-		form.AddField("TaskAssignTO", "nmbhor@cennest.com");
-		form.AddField("UserID", 1);
-		form.AddField("GroupID",1);
-		WWW www = new WWW(url, form);
-	
-		StartCoroutine(WaitForRequest(www));
-	}
-
-
-	void getTest()
-	{
-		string url = "http://taskmanagerapp.azurewebsites.net/api/tasks/getAllTasks?groupId=1&userId=1";
-		WWW www = new WWW(url);
-		StartCoroutine(WaitForRequest(www));
-	
-	}
+//	void postTest()
+//	{
+//		string url = "http://taskmanagerapp.azurewebsites.net/api/tasks/updateTaskDetails";
+//		
+//		WWWForm form = new WWWForm();
+//		form.AddField("TaskID", 1);
+//		form.AddField("TaskDescription", "Stalin Test");
+//		form.AddField("TaskStatus", "Open");
+//		form.AddField("TaskAssignTO", "nmbhor@cennest.com");
+//		form.AddField("UserID", 1);
+//		form.AddField("GroupID",1);
+//		WWW www = new WWW(url, form);
+//	
+//		StartCoroutine(WaitForRequest(www));
+//	}
+//
+//
+//	void getTest()
+//	{
+//		string url = "http://taskmanagerapp.azurewebsites.net/api/tasks/getAllTasks?groupId=1&userId=1";
+//		WWW www = new WWW(url);
+//		StartCoroutine(WaitForRequest(www));
+//	
+//	}
 
 	IEnumerator WaitForRequest(WWW www)
 	{
@@ -56,11 +57,6 @@ public GameObject player;
 		}
 	}
 
-
-
-
-
-	
 	// Update is called once per frame
 	void Update () {
 	
