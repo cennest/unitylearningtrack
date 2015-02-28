@@ -1,12 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/CreateUser.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerPickUp.cs">
     <Files>
-      <File FileName="Assets/Scripts/CreateUser.cs" Line="18" Column="2" />
-      <File FileName="Assets/Scripts/CreateUser.cs" Line="75" Column="1" />
-      <File FileName="Assets/Scripts/StartGame.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/PlayerAttack.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/IPickupable.cs" Line="8" Column="1" />
+      <File FileName="Assets/Scripts/PlayerPickUp.cs" Line="23" Column="2" />
       <File FileName="Assets/Scripts/MoveAnimation.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/CreateUser.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/StartGame.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/PlayerAttack.cs" Line="16" Column="5" />
+      <File FileName="Assets/Scripts/IPickupable.cs" Line="8" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
