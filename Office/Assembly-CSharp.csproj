@@ -172,6 +172,7 @@
      <Compile Include="Assets\Scripts\HitSound.cs" />
      <Compile Include="Assets\Scripts\IHittable.cs" />
      <Compile Include="Assets\Scripts\IPickupable.cs" />
+     <Compile Include="Assets\Scripts\ItemSwap.cs" />
      <Compile Include="Assets\Scripts\MoveAnimation.cs" />
      <Compile Include="Assets\Scripts\PlayerAttack.cs" />
      <Compile Include="Assets\Scripts\PlayerPickUp.cs" />
